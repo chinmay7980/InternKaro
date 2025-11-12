@@ -1,0 +1,120 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0077ff;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #0055cc;
+}
+
+.auth-container {
+  background-color: white;
+  width: 350px;
+  margin: 100px auto;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border: 1px solid #0077ff;
+  outline: none;
+}
+
+button {
+  background-color: #0077ff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #005bcc;
+}
+
+.message {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+
+nav {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+
+.brand {
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #0077ff;
+  letter-spacing: 0.5px;
+}
+
+
+.nav-right {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: #0077ff;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.nav-right a:hover {
+  color: #0055cc;
+}
